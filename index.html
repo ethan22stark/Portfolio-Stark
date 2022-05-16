@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starkportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Ethan P Stark</span></h2>
+            <h3>I'm a Front End Web Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/myPic2.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am I?</h3>
+                <h2>I'm <b>Ethan P Stark</b>, a Web Developer</h2>
+                <p>I enjoy developing websites. I partake in working out and exercise in my freetime. I love nature and I always want to be in it. I also dabble in voice acting as I am working on lines for a video game called Hellreaver. </p>
+                <br>
+                <p>I am a freelancer from the United States of America that has novice skills in HTML, CSS, and JavaScript.</p>
+                <div class="heading bottom">
+                    <div class="bt">
+                        <b>Name:</b> Ethan P Stark<br>
+                        <b>Age:</b> 17
+                  </div>
+                    <div class="bt">
+                        <b>Email:</b> ethanstark@email.com<br>
+                        <b>Location:</b> USA
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+   
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Showcasing some of my <b>Udemy Courses</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://ethan22stark.github.io/Split-Landing/" target="_blank">
+                    <img src="images/Slpit Landing.png" alt="">
+                    <p>PS5 vs. Xbox Series X</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://ethan22stark.github.io/Cool-Clock/" target="_blank">
+                    <img src="images/Clock.png" alt="">
+                    <p>Cool Clock</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://ethan22stark.github.io/blurry-burgers/" target="_blank">
+                    <img src="images/Burger.png" alt="">
+                    <p>Burger</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://ethan22stark.github.io/Expanding-Cards/" target="_blank">
+                    <img src="images/Expanding Cards.png" alt="">
+                    <p>Pictures of Cool Landscapes</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://ethan22stark.github.io/Dad-Jokes/" target="_blank">
+                    <img src="images/Dad jokes.png" alt="">
+                    <p>Bad Dad Jokes</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://ethan22stark.github.io/MovieApp/" target="_blank">
+                    <img src="images/MovieApp.png" alt="">
+                    <p>Movies </p>
+                </a>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my clients think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>"Ethan Stark is a pleasdure to work with and is incredibly professional. His work is significantly higher quality then the competition and very affordable"</p>
+                <h3>Canyon Enyart<br>Game Developer</h3>
+            </div>
+            <div class="testimonialBx">
+                <p>"The website Ethan made for my chemistry class is emaculate. I am looking forward to hire him on another undisclosed project."</p><h3>Walter Hartwell White<br>Chemistry Teacher</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2022, starkportfolio.com, Allrights reserved</p>
+    </footer>
+</body>
+</html>
